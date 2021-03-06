@@ -4,6 +4,7 @@ def my_collect(collection)
     list = []
     while i < collection.length
       list << yield collection[i]
+      i += 1
     end 
     list
   else
