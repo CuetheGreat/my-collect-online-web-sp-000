@@ -6,4 +6,7 @@ def my_collect(collection)
       list << yield collection[i]
     end 
     list
+  else
+    return nil
+  end
 end
